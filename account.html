@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .topnav{
+            margin-top: 40px;
+            background-color: rgb(189, 184, 184);
+            overflow: hidden;
+            color: black;
+            display: inline-block;
+            margin-left:350px;
+            
+
+            
+        }
+        a:link {
+            color: black;
+            background-color:gray;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        
+
+
+        .topnav a{
+            float: left;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration:solid;
+
+        }
+        #a1{
+           background-color: rgb(83, 132, 201); 
+        }
+        input{
+            width: 300px;
+        }
+        fieldset{
+            width: 500px;
+            margin-left: 350px;
+        }
+        #CNIC{
+            width: 25px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="topnav">
+        <a id="a1" href="">Step 1: Account</a>
+        <a id="a2" href="">Step 2: Personal Details</a>
+        <a id="a3" href="">Step 3: Your Review</a>
+    </div>
+    <form>
+        <fieldset>
+        <legend>Personal Details</legend>
+        <label for="firstname">First Name:</label>
+        <br>
+        <input type="text" id="firstname" placeholder="Enter First Name">
+        <br>
+        <label for="lastname">Last Name:</label>
+        <br>
+        <input type="text" id="lastname" placeholder="Enter Last Name">
+        <br>
+        <label for="CNIC">CNIC</label>
+        <br>
+        <input type="number" id="CNIC">
+        <label for="lastname">Social Link</label>
+        <br>
+        <input type="url" id="lastname" placeholder="Enter Facebook/ Linkedin Profile link">
+    </form>
+</fieldset>
+</body>
+</html>
