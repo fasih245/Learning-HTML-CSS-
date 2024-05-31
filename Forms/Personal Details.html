@@ -33,7 +33,7 @@
             text-decoration:solid;
 
         }
-        #a1{
+        #a2{
            background-color: rgb(83, 132, 201); 
         }
         input{
@@ -44,8 +44,21 @@
             margin-left: 350px;
         }
         #CNIC{
-            width: 25px;
+            width: 150px;
             height: 20px;
+        }
+        .image{
+            width: 150px; height: 35px;
+        }
+        .column {
+              float: left;
+              /* width: 33.33%; */
+              padding: 3px;
+        }
+        .row::after {
+              content: "";
+              clear: both;
+              display: table;
         }
     </style>
 </head>
@@ -69,10 +82,20 @@
         <br>
         <label for="CNIC">CNIC</label>
         <br>
-        <input type="number" id="CNIC">
+        <input type="number" id="CNIC" placeholder="Enter Your CNIC">
+        <br>
         <label for="lastname">Social Link</label>
         <br>
         <input type="url" id="lastname" placeholder="Enter Facebook/ Linkedin Profile link">
+        <br>
+       <div class="row">
+        <div class="column">
+        <a href="account.html"> <img class="image" src="/Resources/back.png" alt="Backwards Button"></a>
+    </div>
+    <div class="column">
+        <a href="Your Review.html"> <img class="image" src="/Resources/next.png" alt="Forward Button"></a>
+    </div>
+    </div>
     </form>
 </fieldset>
 </body>

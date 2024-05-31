@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms/Your Review</title>
+    <style>
+        .topnav{
+            margin-top: 40px;
+            background-color: rgb(189, 184, 184);
+            overflow: hidden;
+            color: black;
+            display: inline-block;
+            margin-left:350px;
+            
+
+            
+        }
+        a:link {
+            color: black;
+            background-color:gray;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        
+
+
+        .topnav a{
+            float: left;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration:solid;
+
+        }
+        #a3{
+           background-color: rgb(83, 132, 201); 
+        }
+        input{
+            /* width: 300px; */
+        }
+        fieldset{
+            width: 500px;
+            margin-left: 350px;
+        }
+        #options{
+            width: 170px;
+        }
+        .column{
+            float: left;
+            width: 50%;
+        }
+        .row:after {
+            content: "";
+            display: table;
+           clear: both;
+        }
+        .coloumn1{
+            float: left;
+        
+        }
+        .row1:after {
+            content: "";
+            display: table;
+           clear: both;
+        }
+        .Comments{
+            width: 300px;
+            height: 70px;
+        }
+        .columnimg {
+              float: left;
+              /* width: 33.33%; */
+              padding: 3px;
+        }
+        .rowimg::after {
+              content: "";
+              clear: both;
+              display: table;
+        }
+        .image{
+            width: 150px; height: 35px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="topnav">
+        <a id="a1" href="">Step 1: Account</a>
+        <a id="a2" href="">Step 2: Personal Details</a>
+        <a id="a3" href="">Step 3: Your Review</a>
+    </div>
+    <form>
+        <fieldset>
+            <legend>Your Review:</legend>
+        <div class="row">
+            <div class="column">
+               <label for="options"><strong>How did you hear about us?</strong></label>
+            </div>
+            <div class="column" id="coloumn2">
+            <select name="options" id="options" placeholder="Select your opinion.">
+                <option value="News Letter">News Letter</option>
+                <option value="Online Advert">Online Advert</option>
+                <option value="Peers">Peers</option>
+              </select>
+            </div>
+        </div>
+          
+            <label for="Yes/No/Maybe"><strong>Would you visit again?</strong></label>
+            <br>
+        <div class="row1">
+            <div class="coloumn1">
+            <label for="Yes"><strong>Yes</strong></label>
+            <input id="Yes" type="radio" name="Yes">
+        </div>
+        <div class="coloumn1">
+            <label for="No"><strong>No</strong></label>
+            <input id="No" type="radio" name="No">
+        
+        </div>
+        <div class="coloumn1">
+            <label for="Maybe"><strong>Maybe</strong></label>
+            <input id="Maybe" type="radio" name="Maybe">
+        </div>
+        </div>
+        <br>
+        
+        <label for="Comments"><strong>Comments</strong></label>
+        <br>
+        <input type="text" class="Comments" placeholder="Enter your Comments here">
+     <br>
+    <label for="Document"><strong>Documents;</strong></label>
+    <br>
+    <input type="file" id="Document" placeholder="choose file">
+    <br>
+    <input type="checkbox" id="Sign">
+    <label id="signup" for="Sign">Sign me up for email updates</label>
+    <br>
+
+    <div class="rowimg">
+        <div class="columnimg">
+        <a href="Personal Details.html"> <img class="image" src="/Resources/back.png" alt="Backwards Button"></a>
+    </div>
+    <div class="columnimg">
+        <a href="index.html"> <img class="image" src="/Resources/submit.png" alt="Submit Button"></a>
+    </div>
+    </div>
+        </fieldset>
+    </form>
+</body>
+</html>

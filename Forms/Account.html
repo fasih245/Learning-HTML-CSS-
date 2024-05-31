@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Form/Account</title>
+    <style>
+        .topnav{
+            margin-top: 40px;
+            background-color: rgb(189, 184, 184);
+            overflow: hidden;
+            color: black;
+            display: inline-block;
+            margin-left:350px;
+            
+
+            
+        }
+        a:link {
+            color: black;
+            background-color:gray;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        
+
+
+        .topnav a{
+            float: left;
+            text-align: center;
+            padding: 16px 20px;
+            text-decoration:solid;
+
+        }
+        #a1{
+           background-color: rgb(83, 132, 201); 
+        }
+        fieldset{
+            width: 500px;
+            margin-left: 350px;
+        }
+        .image{
+            width: 150px; height: 35px;
+        }
+        .column {
+              float: left;
+              /* width: 33.33%; */
+              padding: 3px;
+        }
+        .row::after {
+              content: "";
+              clear: both;
+              display: table;
+        }
+        </style>
+</head>
+<body>
+    <div class="topnav">
+        <a id="a1" href="">Step 1: Account</a>
+        <a id="a2" href="">Step 2: Personal Details</a>
+        <a id="a3" href="">Step 3: Your Review</a>
+    </div>
+    <fieldset>
+        <legend>Account</legend>
+        <label for="Email Adress">Email Adress</label>
+        <br>
+        <input type="email" id="Email Adress" placeholder="Enter Your Email Adress">
+        <br>
+        <label for="Password">Password</label>
+        <br>
+        <input type="password" id="Password" placeholder="Password">
+        <br>
+        <label for="Confirm Password">Confirm Password</label>
+        <br>
+        <input type="password" id="Password" placeholder="Confirm Password">
+        <br>
+        <div class="row">
+            <div class="column">
+            <a href="/index.html"> <img class="image" src="/Resources/back.png" alt="Backwards Button"></a>
+        </div>
+        <div class="column">
+            <a href="/Personal Details.html"> <img class="image" src="/Resources/next.png" alt="Forward Button"></a>
+        </div>
+    </fieldset>
+</body>
+</html>
