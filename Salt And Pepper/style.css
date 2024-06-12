@@ -190,3 +190,18 @@ html{
 .text-white{
     color: #ffffff;
 }
+.container-2{
+    text-align: center;
+
+}
+.parent-container-2{
+    height: auto;
+    
+    
+}
+.child-container-2{
+    width: 280px;
+    
+    width: 33%;
+    text-align: center;
+}
