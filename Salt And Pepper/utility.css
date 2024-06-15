@@ -89,9 +89,33 @@ html{
 .custom-m{
     margin-top: 200px;
 }
+.mb1{
+    margin-bottom: 10px;
+}
+.mb2{
+    margin-bottom: 30px;
+}
+.ma{
+    margin: auto;
+}
+.pdl{
+    padding-left: 100px;
+    
+}
+.pdr{
+    padding-right: 100px;
+}
 /* margin classes ended */
 
-
+.width1{
+    width: 50%;
+}
+.width2{
+    width: 100%;
+}
+.height1{
+    height: 100%;
+}
 /* padding classes start */
 .p1{
     padding: 5px;
@@ -176,7 +200,7 @@ html{
     font-size: 14px;
     line-height: 50px;
     color: #FFFFFF;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 24px;
 }
 .img-container{
@@ -216,3 +240,10 @@ html{
     width: 40px; */
 }
 /* Sizing End */
+/* Country img containers  start*/
+
+.image-container-islamabad{
+    width: 100%;
+}
+
+/* Country img containers  End*/
