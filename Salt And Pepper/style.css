@@ -207,5 +207,44 @@ html{
 }
 .bg-img{
     background-image: url('/Resources/bg_img.webp');
-    /* background-color: #000000;
+    /* background-color: #000000;*/
+} 
+.SnP-Franchise-list{
+    justify-content: space-around;
+    column-gap: 20px;
+    align-content: center;
+    margin-left: 40px;
+    height: ;
+}
+.SnP-Franchise-list-width{
+    flex-wrap: wrap;
+    flex-basis: 33%;
+    
+}
+.SnP-Franchise-list-img{
+    width: 350px;
+    height: 250px;
+}
+.text-size{
+    font-size: large;
+}
+.white-box{
+    width: 400px;
+    height: 325px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 32px;
+    text-size-adjust: 100%;
+    border-radius: 2%;
+    max-width: 100%;
+  
+    
+    
+
+}
+/* .white-box-image{
+    margin-left: 202px;
+    margin-right: 202px;
 } */
