@@ -280,6 +280,20 @@ html{
 .bg-white{
     background-color: #ffffff;
 }
+.text-black{
+    color: #000000;
+}
+.text-weight1{
+    font-weight: 500;
+}
+.font-size1{
+    font-size: 30px;
+   font-weight: 300;
+   text-size-adjust: ;
+}
+.font-size2{
+    font-size: 20px;
+}
 
 /* Colors End */
 /* Gap between div */
@@ -288,4 +302,11 @@ html{
 }
 .gap2{
     gap: 40px;
+}
+.size1{
+    color: #b30b0b;
+    font-size: 40px;
+}
+.color-p{
+    color: rgba(255, 255, 255, 0.7) ;
 }

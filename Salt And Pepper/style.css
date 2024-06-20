@@ -200,7 +200,7 @@ html{
     
 }
 .child-container-2{
-    width: 280px;
+    /* width: 280px; */
     
     width: 33%;
     text-align: center;
@@ -230,7 +230,7 @@ html{
 }
 .white-box{
     width: 400px;
-    height: 325px;
+    height: 350px;
     padding-right: 15px;
     padding-left: 15px;
     padding-top: 25px;
@@ -248,3 +248,38 @@ html{
     margin-left: 202px;
     margin-right: 202px;
 } */
+ .socialfeed{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 40px;
+    font-weight: 600;
+    
+ }
+
+ .menu-parent{
+    width: 100%;
+    padding-bottom: 140px;
+ }
+
+ .menu-child{
+      width: 100%;
+      /* height: 250px; */
+
+ }
+ .width4{
+      width: 20%;
+ }
+ .pg-end-parent{
+           width: 100%;
+           column-gap: 40px;
+ }
+ .pg-end-child{
+           width: 25%;
+           font-size: 20px;
+           font-weight: lighter;
+           padding-left: 10px;
+           color: rgba(255, 255, 255, 0.7)
+ }
+ .ul{
+    list-style-type: none;
+ }
