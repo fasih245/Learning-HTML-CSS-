@@ -283,3 +283,17 @@ html{
  .ul{
     list-style-type: none;
  }
+
+ .introduction{
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 32px;
+    margin-bottom: 32px;
+ }
+
+ .heading2{
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: 32px;
+    margin-bottom: 32px;
+ }

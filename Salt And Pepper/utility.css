@@ -106,6 +106,10 @@ html{
 .pdr{
     padding-right: 100px;
 }
+.pdlr1{
+    padding-left: 40px;
+    padding-right: 40px;
+}
 /* margin classes ended */
 
 .width1{
@@ -156,6 +160,7 @@ html{
 .py-{
     padding: 5px 0px;
 }
+.
 
 /* padding classes ended */
 
@@ -231,7 +236,7 @@ html{
 
 .paragraph{
     font-weight: lighter;
-    font-size: 16px;
+    font-size: 18px;
     color: #e7e0e0ec;
 }
 .text-red{
