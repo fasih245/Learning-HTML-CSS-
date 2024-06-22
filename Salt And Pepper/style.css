@@ -278,7 +278,7 @@ html{
            font-size: 20px;
            font-weight: lighter;
            padding-left: 10px;
-           color: rgba(255, 255, 255, 0.7)
+           color: #ffffffb3
  }
  .ul{
     list-style-type: none;
@@ -292,8 +292,35 @@ html{
  }
 
  .heading2{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 300;
     margin-top: 32px;
     margin-bottom: 32px;
  }
+ #logo-text{
+    background-color: #000000;
+    color:#ffffff ;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    /* text-align: center; */
+    text-size-adjust: 100%;
+    /* margin-top: 200px; */
+    font-size: 4em;
+ }
+
+ #text-weight1{
+    font-weight: 500;
+}
+.bg-color-container{
+    background-color: #0f0f0f;
+}
+
+.SnP-Franchise-list-img1{
+    width: 350px;
+    height: 300px;
+    border-radius: 4px;
+}
+.#text-color-white{
+    color: #ffffff;
+}
